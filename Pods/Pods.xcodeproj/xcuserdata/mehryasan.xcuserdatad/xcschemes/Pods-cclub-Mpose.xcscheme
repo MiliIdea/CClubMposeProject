@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "35732679A9471BCF5A64E702CBFF0547"
+               BlueprintIdentifier = "8E998A1EBAA54CEE48330AA2FC633E88"
                BuildableName = "Pods_cclub_Mpose.framework"
                BlueprintName = "Pods-cclub-Mpose"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "35732679A9471BCF5A64E702CBFF0547"
+            BlueprintIdentifier = "8E998A1EBAA54CEE48330AA2FC633E88"
             BuildableName = "Pods_cclub_Mpose.framework"
             BlueprintName = "Pods-cclub-Mpose"
             ReferencedContainer = "container:Pods.xcodeproj">

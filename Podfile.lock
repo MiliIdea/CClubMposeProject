@@ -27,7 +27,6 @@ PODS:
   - ObjectMapper (3.1.0)
   - OneSignal (2.8.4)
   - PersianDatePicker (0.5.0)
-  - RangeSeekSlider (1.7.0)
   - SWXMLHash (4.0.0)
   - Toast-Swift (3.0.1)
   - UICheckbox.Swift (1.0.0)
@@ -53,7 +52,6 @@ DEPENDENCIES:
   - ObjectMapper (~> 3.1)
   - OneSignal
   - PersianDatePicker
-  - RangeSeekSlider
   - SWXMLHash (~> 4.0.0)
   - Toast-Swift
   - UICheckbox.Swift
@@ -83,7 +81,6 @@ SPEC REPOS:
     - ObjectMapper
     - OneSignal
     - PersianDatePicker
-    - RangeSeekSlider
     - SWXMLHash
     - Toast-Swift
     - UICheckbox.Swift
@@ -112,12 +109,11 @@ SPEC CHECKSUMS:
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   OneSignal: 7218a5a787f6685de81bdb487e696439e8c8f59b
   PersianDatePicker: ee74ea5f8b6269bd604c8fa70ea36529cf0a5282
-  RangeSeekSlider: 0386c5a9aa5ebcb2fa5238e8a627280cf46c7c0a
   SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
   Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
   UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
   UIColor_Hex_Swift: c5ff88470499383b8fd85302d59344bb24ba9436
 
-PODFILE CHECKSUM: ebe3047186990f8a1fe91504b0ea31d09c9002d9
+PODFILE CHECKSUM: 90c1fecd9c36f994e86be0593163134af4ef6ea5
 
 COCOAPODS: 1.5.2

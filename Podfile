@@ -37,8 +37,6 @@ target 'cclub-Mpose' do
   
   pod 'IGRPhotoTweaks', '~> 1.0.0'
   
-  pod 'RangeSeekSlider'
-  
   pod 'Kingfisher', '~> 4.0'
   
   pod 'BvMapCluster'
