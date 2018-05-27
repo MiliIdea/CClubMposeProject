@@ -1,0 +1,6 @@
+framework module Pods_cclub_Mpose {
+  umbrella header "Pods-cclub-Mpose-umbrella.h"
+
+  export *
+  module * { export * }
+}

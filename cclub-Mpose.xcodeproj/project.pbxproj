@@ -13,6 +13,10 @@
 		10D1813820B91E90004EF107 /* cclub_Mpose.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10D1813620B91E90004EF107 /* cclub_Mpose.xcdatamodeld */; };
 		10D1813A20B91E96004EF107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D1813920B91E96004EF107 /* Assets.xcassets */; };
 		10D1813D20B91E96004EF107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D1813B20B91E96004EF107 /* LaunchScreen.storyboard */; };
+		10D1814820BA7509004EF107 /* iran_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D1814520BA7509004EF107 /* iran_sans.ttf */; };
+		10D1814920BA7509004EF107 /* BYekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D1814620BA7509004EF107 /* BYekan.ttf */; };
+		10D1814A20BA7509004EF107 /* iran_sans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D1814720BA7509004EF107 /* iran_sans_medium.ttf */; };
+		291B7113EEE18DC58B24C7CB /* Pods_cclub_Mpose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA23A198DDC7E468777C6AB9 /* Pods_cclub_Mpose.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		10D1813920B91E96004EF107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10D1813C20B91E96004EF107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10D1813E20B91E96004EF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D1814520BA7509004EF107 /* iran_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans.ttf; sourceTree = "<group>"; };
+		10D1814620BA7509004EF107 /* BYekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BYekan.ttf; sourceTree = "<group>"; };
+		10D1814720BA7509004EF107 /* iran_sans_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans_medium.ttf; sourceTree = "<group>"; };
+		4E17366830C5F27FE4E72D1E /* Pods-cclub-Mpose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cclub-Mpose.release.xcconfig"; path = "Pods/Target Support Files/Pods-cclub-Mpose/Pods-cclub-Mpose.release.xcconfig"; sourceTree = "<group>"; };
+		78CB543404864A5D6103A9B8 /* Pods-cclub-Mpose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cclub-Mpose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cclub-Mpose/Pods-cclub-Mpose.debug.xcconfig"; sourceTree = "<group>"; };
+		EA23A198DDC7E468777C6AB9 /* Pods_cclub_Mpose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cclub_Mpose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291B7113EEE18DC58B24C7CB /* Pods_cclub_Mpose.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +51,11 @@
 		10D1812320B91E90004EF107 = {
 			isa = PBXGroup;
 			children = (
+				10D1814420BA74E7004EF107 /* Fonts */,
 				10D1812E20B91E90004EF107 /* cclub-Mpose */,
 				10D1812D20B91E90004EF107 /* Products */,
+				4D666296EBF921356BC0B15D /* Pods */,
+				5EC8CFD923B934E705F84E33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +81,33 @@
 			path = "cclub-Mpose";
 			sourceTree = "<group>";
 		};
+		10D1814420BA74E7004EF107 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				10D1814620BA7509004EF107 /* BYekan.ttf */,
+				10D1814720BA7509004EF107 /* iran_sans_medium.ttf */,
+				10D1814520BA7509004EF107 /* iran_sans.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4D666296EBF921356BC0B15D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78CB543404864A5D6103A9B8 /* Pods-cclub-Mpose.debug.xcconfig */,
+				4E17366830C5F27FE4E72D1E /* Pods-cclub-Mpose.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EC8CFD923B934E705F84E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA23A198DDC7E468777C6AB9 /* Pods_cclub_Mpose.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10D1814120B91E96004EF107 /* Build configuration list for PBXNativeTarget "cclub-Mpose" */;
 			buildPhases = (
+				2CB5CA548DD7422FDBFFDE37 /* [CP] Check Pods Manifest.lock */,
 				10D1812820B91E90004EF107 /* Sources */,
 				10D1812920B91E90004EF107 /* Frameworks */,
 				10D1812A20B91E90004EF107 /* Resources */,
+				B5CB67D697902F3898120501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +170,103 @@
 			files = (
 				10D1813D20B91E96004EF107 /* LaunchScreen.storyboard in Resources */,
 				10D1813A20B91E96004EF107 /* Assets.xcassets in Resources */,
+				10D1814A20BA7509004EF107 /* iran_sans_medium.ttf in Resources */,
 				10D1813520B91E90004EF107 /* Main.storyboard in Resources */,
+				10D1814820BA7509004EF107 /* iran_sans.ttf in Resources */,
+				10D1814920BA7509004EF107 /* BYekan.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB5CA548DD7422FDBFFDE37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cclub-Mpose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5CB67D697902F3898120501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cclub-Mpose/Pods-cclub-Mpose-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFDateHelper/AFDateHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/BvMapCluster/BvMapCluster.framework",
+				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DCKit/DCKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTimePicker/DateTimePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/Gallery/Gallery.framework",
+				"${BUILT_PRODUCTS_DIR}/IGRPhotoTweaks/IGRPhotoTweaks.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MapKitGoogleStyler/MapKitGoogleStyler.framework",
+				"${BUILT_PRODUCTS_DIR}/MiniLayout/MiniLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MultiSlider/MultiSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PersianDatePicker/PersianDatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/UICheckbox.Swift/UICheckbox_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFDateHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BvMapCluster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClusterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTimePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGRPhotoTweaks.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapKitGoogleStyler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultiSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersianDatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICheckbox_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cclub-Mpose/Pods-cclub-Mpose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10D1812820B91E90004EF107 /* Sources */ = {
@@ -282,6 +417,7 @@
 		};
 		10D1814220B91E96004EF107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CB543404864A5D6103A9B8 /* Pods-cclub-Mpose.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +436,7 @@
 		};
 		10D1814320B91E96004EF107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E17366830C5F27FE4E72D1E /* Pods-cclub-Mpose.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
