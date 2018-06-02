@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1083FECC20BBE53F003A3CEA /* GetCreditUserRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FECB20BBE53F003A3CEA /* GetCreditUserRequestModel.swift */; };
+		1083FECE20BBEBB7003A3CEA /* GetCreditRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FECD20BBEBB7003A3CEA /* GetCreditRes.swift */; };
+		1083FED220BBFBA9003A3CEA /* CreditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FED020BBFBA9003A3CEA /* CreditTableViewCell.swift */; };
+		1083FED320BBFBA9003A3CEA /* CreditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1083FED120BBFBA9003A3CEA /* CreditTableViewCell.xib */; };
+		1083FED520BC130D003A3CEA /* AssignCcardWithPersonRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FED420BC130D003A3CEA /* AssignCcardWithPersonRequestModel.swift */; };
+		1083FED720BC1327003A3CEA /* SaveManyToManyRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FED620BC1327003A3CEA /* SaveManyToManyRequestModel.swift */; };
+		1083FED920BC1338003A3CEA /* UpdatePersonRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FED820BC1338003A3CEA /* UpdatePersonRequestModel.swift */; };
+		1083FEDB20BD1747003A3CEA /* FindDuplicateRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEDA20BD1747003A3CEA /* FindDuplicateRequestModel.swift */; };
+		1083FEDD20BD1BC1003A3CEA /* PayInvoiceByCreditRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEDC20BD1BC1003A3CEA /* PayInvoiceByCreditRequestModel.swift */; };
+		1083FEDF20BD26BE003A3CEA /* CreditDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEDE20BD26BE003A3CEA /* CreditDetail.swift */; };
+		1083FEE120BD3285003A3CEA /* AddInvoiceRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEE020BD3285003A3CEA /* AddInvoiceRequestModel.swift */; };
+		1083FEE320BD5107003A3CEA /* AddRejectionInvoiceRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEE220BD5107003A3CEA /* AddRejectionInvoiceRequestModel.swift */; };
+		1083FEE520BD5910003A3CEA /* RejectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEE420BD5910003A3CEA /* RejectionViewController.swift */; };
+		1083FEF120BD6CC8003A3CEA /* AllOrganizationRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEEC20BD6CC8003A3CEA /* AllOrganizationRes.swift */; };
+		1083FEF420BD8860003A3CEA /* SettingsPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEF320BD8860003A3CEA /* SettingsPopupViewController.swift */; };
+		1083FEF620BEA9BF003A3CEA /* RejectDuplicateRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083FEF520BEA9BF003A3CEA /* RejectDuplicateRes.swift */; };
+		10C065AF20BAADB8004B04B3 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065AE20BAADB8004B04B3 /* URLs.swift */; };
+		10C065B120BAADCB004B04B3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065B020BAADCB004B04B3 /* App.swift */; };
+		10C065B320BAAE88004B04B3 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065B220BAAE88004B04B3 /* LoginRequestModel.swift */; };
+		10C065B720BAB0DD004B04B3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065B620BAB0DD004B04B3 /* LoadingViewController.swift */; };
+		10C065B920BAB281004B04B3 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065B820BAB281004B04B3 /* ResponseModel.swift */; };
+		10C065C520BAB3D6004B04B3 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065BB20BAB3D5004B04B3 /* Organization.swift */; };
+		10C065C620BAB3D6004B04B3 /* LoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065BC20BAB3D5004B04B3 /* LoginRes.swift */; };
+		10C065C720BAB3D6004B04B3 /* CcardSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065BD20BAB3D5004B04B3 /* CcardSegment.swift */; };
+		10C065C820BAB3D6004B04B3 /* Pos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065BE20BAB3D5004B04B3 /* Pos.swift */; };
+		10C065C920BAB3D6004B04B3 /* ParentOrg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065BF20BAB3D5004B04B3 /* ParentOrg.swift */; };
+		10C065CA20BAB3D6004B04B3 /* UpdatedBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065C020BAB3D5004B04B3 /* UpdatedBy.swift */; };
+		10C065CB20BAB3D6004B04B3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065C120BAB3D6004B04B3 /* UserInfo.swift */; };
+		10C065CC20BAB3D6004B04B3 /* PosType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065C220BAB3D6004B04B3 /* PosType.swift */; };
+		10C065CD20BAB3D6004B04B3 /* CreatedBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065C320BAB3D6004B04B3 /* CreatedBy.swift */; };
+		10C065CE20BAB3D6004B04B3 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065C420BAB3D6004B04B3 /* LogoImage.swift */; };
+		10C065D020BAB78E004B04B3 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C065CF20BAB78D004B04B3 /* loading.json */; };
+		10C065D220BAC0B6004B04B3 /* PosLoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065D120BAC0B6004B04B3 /* PosLoginRequestModel.swift */; };
+		10C065D420BAC2D0004B04B3 /* SearchWithMobileRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065D320BAC2D0004B04B3 /* SearchWithMobileRequestModel.swift */; };
+		10C065D620BAC2F6004B04B3 /* SearchWithCardRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065D520BAC2F6004B04B3 /* SearchWithCardRequestModel.swift */; };
+		10C065D820BAC81B004B04B3 /* SearchRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C065D720BAC81B004B04B3 /* SearchRes.swift */; };
 		10D1813020B91E90004EF107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1812F20B91E90004EF107 /* AppDelegate.swift */; };
 		10D1813220B91E90004EF107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D1813120B91E90004EF107 /* ViewController.swift */; };
 		10D1813520B91E90004EF107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D1813320B91E90004EF107 /* Main.storyboard */; };
@@ -16,10 +52,47 @@
 		10D1814820BA7509004EF107 /* iran_sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D1814520BA7509004EF107 /* iran_sans.ttf */; };
 		10D1814920BA7509004EF107 /* BYekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D1814620BA7509004EF107 /* BYekan.ttf */; };
 		10D1814A20BA7509004EF107 /* iran_sans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D1814720BA7509004EF107 /* iran_sans_medium.ttf */; };
+		10D6AB7E20BAA070000150C4 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D6AB7D20BAA070000150C4 /* MainPageViewController.swift */; };
 		291B7113EEE18DC58B24C7CB /* Pods_cclub_Mpose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA23A198DDC7E468777C6AB9 /* Pods_cclub_Mpose.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1083FECB20BBE53F003A3CEA /* GetCreditUserRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditUserRequestModel.swift; sourceTree = "<group>"; };
+		1083FECD20BBEBB7003A3CEA /* GetCreditRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditRes.swift; sourceTree = "<group>"; };
+		1083FED020BBFBA9003A3CEA /* CreditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditTableViewCell.swift; sourceTree = "<group>"; };
+		1083FED120BBFBA9003A3CEA /* CreditTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditTableViewCell.xib; sourceTree = "<group>"; };
+		1083FED420BC130D003A3CEA /* AssignCcardWithPersonRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCcardWithPersonRequestModel.swift; sourceTree = "<group>"; };
+		1083FED620BC1327003A3CEA /* SaveManyToManyRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveManyToManyRequestModel.swift; sourceTree = "<group>"; };
+		1083FED820BC1338003A3CEA /* UpdatePersonRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonRequestModel.swift; sourceTree = "<group>"; };
+		1083FEDA20BD1747003A3CEA /* FindDuplicateRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDuplicateRequestModel.swift; sourceTree = "<group>"; };
+		1083FEDC20BD1BC1003A3CEA /* PayInvoiceByCreditRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayInvoiceByCreditRequestModel.swift; sourceTree = "<group>"; };
+		1083FEDE20BD26BE003A3CEA /* CreditDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditDetail.swift; sourceTree = "<group>"; };
+		1083FEE020BD3285003A3CEA /* AddInvoiceRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInvoiceRequestModel.swift; sourceTree = "<group>"; };
+		1083FEE220BD5107003A3CEA /* AddRejectionInvoiceRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRejectionInvoiceRequestModel.swift; sourceTree = "<group>"; };
+		1083FEE420BD5910003A3CEA /* RejectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectionViewController.swift; sourceTree = "<group>"; };
+		1083FEEC20BD6CC8003A3CEA /* AllOrganizationRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllOrganizationRes.swift; sourceTree = "<group>"; };
+		1083FEF320BD8860003A3CEA /* SettingsPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopupViewController.swift; sourceTree = "<group>"; };
+		1083FEF520BEA9BF003A3CEA /* RejectDuplicateRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RejectDuplicateRes.swift; sourceTree = "<group>"; };
+		10C065AE20BAADB8004B04B3 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		10C065B020BAADCB004B04B3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		10C065B220BAAE88004B04B3 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		10C065B620BAB0DD004B04B3 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		10C065B820BAB281004B04B3 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		10C065BB20BAB3D5004B04B3 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		10C065BC20BAB3D5004B04B3 /* LoginRes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRes.swift; sourceTree = "<group>"; };
+		10C065BD20BAB3D5004B04B3 /* CcardSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CcardSegment.swift; sourceTree = "<group>"; };
+		10C065BE20BAB3D5004B04B3 /* Pos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pos.swift; sourceTree = "<group>"; };
+		10C065BF20BAB3D5004B04B3 /* ParentOrg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentOrg.swift; sourceTree = "<group>"; };
+		10C065C020BAB3D5004B04B3 /* UpdatedBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatedBy.swift; sourceTree = "<group>"; };
+		10C065C120BAB3D6004B04B3 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		10C065C220BAB3D6004B04B3 /* PosType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosType.swift; sourceTree = "<group>"; };
+		10C065C320BAB3D6004B04B3 /* CreatedBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatedBy.swift; sourceTree = "<group>"; };
+		10C065C420BAB3D6004B04B3 /* LogoImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		10C065CF20BAB78D004B04B3 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		10C065D120BAC0B6004B04B3 /* PosLoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosLoginRequestModel.swift; sourceTree = "<group>"; };
+		10C065D320BAC2D0004B04B3 /* SearchWithMobileRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWithMobileRequestModel.swift; sourceTree = "<group>"; };
+		10C065D520BAC2F6004B04B3 /* SearchWithCardRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWithCardRequestModel.swift; sourceTree = "<group>"; };
+		10C065D720BAC81B004B04B3 /* SearchRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRes.swift; sourceTree = "<group>"; };
 		10D1812C20B91E90004EF107 /* cclub-Mpose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cclub-Mpose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D1812F20B91E90004EF107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10D1813120B91E90004EF107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +104,7 @@
 		10D1814520BA7509004EF107 /* iran_sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans.ttf; sourceTree = "<group>"; };
 		10D1814620BA7509004EF107 /* BYekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BYekan.ttf; sourceTree = "<group>"; };
 		10D1814720BA7509004EF107 /* iran_sans_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iran_sans_medium.ttf; sourceTree = "<group>"; };
+		10D6AB7D20BAA070000150C4 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		4E17366830C5F27FE4E72D1E /* Pods-cclub-Mpose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cclub-Mpose.release.xcconfig"; path = "Pods/Target Support Files/Pods-cclub-Mpose/Pods-cclub-Mpose.release.xcconfig"; sourceTree = "<group>"; };
 		78CB543404864A5D6103A9B8 /* Pods-cclub-Mpose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cclub-Mpose.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cclub-Mpose/Pods-cclub-Mpose.debug.xcconfig"; sourceTree = "<group>"; };
 		EA23A198DDC7E468777C6AB9 /* Pods_cclub_Mpose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cclub_Mpose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +122,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1083FECF20BBFB84003A3CEA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1083FED020BBFBA9003A3CEA /* CreditTableViewCell.swift */,
+				1083FED120BBFBA9003A3CEA /* CreditTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		10C065AA20BAAD84004B04B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10C065AC20BAAD9B004B04B3 /* ResponseModels */,
+				10C065AB20BAAD8E004B04B3 /* RequestModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10C065AB20BAAD8E004B04B3 /* RequestModels */ = {
+			isa = PBXGroup;
+			children = (
+				10C065B220BAAE88004B04B3 /* LoginRequestModel.swift */,
+				10C065D120BAC0B6004B04B3 /* PosLoginRequestModel.swift */,
+				10C065D320BAC2D0004B04B3 /* SearchWithMobileRequestModel.swift */,
+				10C065D520BAC2F6004B04B3 /* SearchWithCardRequestModel.swift */,
+				1083FECB20BBE53F003A3CEA /* GetCreditUserRequestModel.swift */,
+				1083FED420BC130D003A3CEA /* AssignCcardWithPersonRequestModel.swift */,
+				1083FED620BC1327003A3CEA /* SaveManyToManyRequestModel.swift */,
+				1083FED820BC1338003A3CEA /* UpdatePersonRequestModel.swift */,
+				1083FEDA20BD1747003A3CEA /* FindDuplicateRequestModel.swift */,
+				1083FEDC20BD1BC1003A3CEA /* PayInvoiceByCreditRequestModel.swift */,
+				1083FEDE20BD26BE003A3CEA /* CreditDetail.swift */,
+				1083FEE020BD3285003A3CEA /* AddInvoiceRequestModel.swift */,
+				1083FEE220BD5107003A3CEA /* AddRejectionInvoiceRequestModel.swift */,
+			);
+			path = RequestModels;
+			sourceTree = "<group>";
+		};
+		10C065AC20BAAD9B004B04B3 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				10C065BA20BAB3BE004B04B3 /* Login-Res */,
+				10C065B820BAB281004B04B3 /* ResponseModel.swift */,
+				10C065D720BAC81B004B04B3 /* SearchRes.swift */,
+				1083FECD20BBEBB7003A3CEA /* GetCreditRes.swift */,
+				1083FEEC20BD6CC8003A3CEA /* AllOrganizationRes.swift */,
+				1083FEF520BEA9BF003A3CEA /* RejectDuplicateRes.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		10C065AD20BAADA9004B04B3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				10C065AE20BAADB8004B04B3 /* URLs.swift */,
+				10C065B020BAADCB004B04B3 /* App.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		10C065BA20BAB3BE004B04B3 /* Login-Res */ = {
+			isa = PBXGroup;
+			children = (
+				10C065BD20BAB3D5004B04B3 /* CcardSegment.swift */,
+				10C065C320BAB3D6004B04B3 /* CreatedBy.swift */,
+				10C065BC20BAB3D5004B04B3 /* LoginRes.swift */,
+				10C065C420BAB3D6004B04B3 /* LogoImage.swift */,
+				10C065BB20BAB3D5004B04B3 /* Organization.swift */,
+				10C065BF20BAB3D5004B04B3 /* ParentOrg.swift */,
+				10C065BE20BAB3D5004B04B3 /* Pos.swift */,
+				10C065C220BAB3D6004B04B3 /* PosType.swift */,
+				10C065C020BAB3D5004B04B3 /* UpdatedBy.swift */,
+				10C065C120BAB3D6004B04B3 /* UserInfo.swift */,
+			);
+			path = "Login-Res";
+			sourceTree = "<group>";
+		};
 		10D1812320B91E90004EF107 = {
 			isa = PBXGroup;
 			children = (
+				10C065CF20BAB78D004B04B3 /* loading.json */,
 				10D1814420BA74E7004EF107 /* Fonts */,
 				10D1812E20B91E90004EF107 /* cclub-Mpose */,
 				10D1812D20B91E90004EF107 /* Products */,
@@ -70,8 +222,11 @@
 		10D1812E20B91E90004EF107 /* cclub-Mpose */ = {
 			isa = PBXGroup;
 			children = (
+				1083FECF20BBFB84003A3CEA /* Cells */,
+				10C065AD20BAADA9004B04B3 /* Utils */,
+				10C065AA20BAAD84004B04B3 /* Models */,
+				10D6AB7A20BA9F6F000150C4 /* Controllers */,
 				10D1812F20B91E90004EF107 /* AppDelegate.swift */,
-				10D1813120B91E90004EF107 /* ViewController.swift */,
 				10D1813320B91E90004EF107 /* Main.storyboard */,
 				10D1813920B91E96004EF107 /* Assets.xcassets */,
 				10D1813B20B91E96004EF107 /* LaunchScreen.storyboard */,
@@ -89,6 +244,18 @@
 				10D1814520BA7509004EF107 /* iran_sans.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		10D6AB7A20BA9F6F000150C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10D1813120B91E90004EF107 /* ViewController.swift */,
+				10C065B620BAB0DD004B04B3 /* LoadingViewController.swift */,
+				10D6AB7D20BAA070000150C4 /* MainPageViewController.swift */,
+				1083FEE420BD5910003A3CEA /* RejectionViewController.swift */,
+				1083FEF320BD8860003A3CEA /* SettingsPopupViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		4D666296EBF921356BC0B15D /* Pods */ = {
@@ -172,7 +339,9 @@
 				10D1813A20B91E96004EF107 /* Assets.xcassets in Resources */,
 				10D1814A20BA7509004EF107 /* iran_sans_medium.ttf in Resources */,
 				10D1813520B91E90004EF107 /* Main.storyboard in Resources */,
+				10C065D020BAB78E004B04B3 /* loading.json in Resources */,
 				10D1814820BA7509004EF107 /* iran_sans.ttf in Resources */,
+				1083FED320BBFBA9003A3CEA /* CreditTableViewCell.xib in Resources */,
 				10D1814920BA7509004EF107 /* BYekan.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,9 +440,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C065C820BAB3D6004B04B3 /* Pos.swift in Sources */,
+				10C065AF20BAADB8004B04B3 /* URLs.swift in Sources */,
+				10C065D820BAC81B004B04B3 /* SearchRes.swift in Sources */,
+				10C065CE20BAB3D6004B04B3 /* LogoImage.swift in Sources */,
+				10D6AB7E20BAA070000150C4 /* MainPageViewController.swift in Sources */,
+				1083FEE320BD5107003A3CEA /* AddRejectionInvoiceRequestModel.swift in Sources */,
+				10C065C520BAB3D6004B04B3 /* Organization.swift in Sources */,
 				10D1813820B91E90004EF107 /* cclub_Mpose.xcdatamodeld in Sources */,
+				1083FED520BC130D003A3CEA /* AssignCcardWithPersonRequestModel.swift in Sources */,
+				1083FEE520BD5910003A3CEA /* RejectionViewController.swift in Sources */,
+				10C065CB20BAB3D6004B04B3 /* UserInfo.swift in Sources */,
+				10C065D420BAC2D0004B04B3 /* SearchWithMobileRequestModel.swift in Sources */,
+				1083FED720BC1327003A3CEA /* SaveManyToManyRequestModel.swift in Sources */,
+				10C065B120BAADCB004B04B3 /* App.swift in Sources */,
+				10C065C920BAB3D6004B04B3 /* ParentOrg.swift in Sources */,
+				10C065CC20BAB3D6004B04B3 /* PosType.swift in Sources */,
+				1083FEDB20BD1747003A3CEA /* FindDuplicateRequestModel.swift in Sources */,
+				10C065D220BAC0B6004B04B3 /* PosLoginRequestModel.swift in Sources */,
+				1083FED920BC1338003A3CEA /* UpdatePersonRequestModel.swift in Sources */,
+				1083FEF620BEA9BF003A3CEA /* RejectDuplicateRes.swift in Sources */,
+				10C065C620BAB3D6004B04B3 /* LoginRes.swift in Sources */,
+				10C065C720BAB3D6004B04B3 /* CcardSegment.swift in Sources */,
+				1083FEF420BD8860003A3CEA /* SettingsPopupViewController.swift in Sources */,
+				10C065D620BAC2F6004B04B3 /* SearchWithCardRequestModel.swift in Sources */,
+				10C065B720BAB0DD004B04B3 /* LoadingViewController.swift in Sources */,
+				10C065CD20BAB3D6004B04B3 /* CreatedBy.swift in Sources */,
+				1083FEDD20BD1BC1003A3CEA /* PayInvoiceByCreditRequestModel.swift in Sources */,
 				10D1813220B91E90004EF107 /* ViewController.swift in Sources */,
+				1083FEF120BD6CC8003A3CEA /* AllOrganizationRes.swift in Sources */,
+				10C065CA20BAB3D6004B04B3 /* UpdatedBy.swift in Sources */,
+				1083FED220BBFBA9003A3CEA /* CreditTableViewCell.swift in Sources */,
+				1083FEE120BD3285003A3CEA /* AddInvoiceRequestModel.swift in Sources */,
+				1083FECE20BBEBB7003A3CEA /* GetCreditRes.swift in Sources */,
+				1083FEDF20BD26BE003A3CEA /* CreditDetail.swift in Sources */,
 				10D1813020B91E90004EF107 /* AppDelegate.swift in Sources */,
+				10C065B920BAB281004B04B3 /* ResponseModel.swift in Sources */,
+				1083FECC20BBE53F003A3CEA /* GetCreditUserRequestModel.swift in Sources */,
+				10C065B320BAAE88004B04B3 /* LoginRequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,13 +623,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JK772YMH8E;
+				DEVELOPMENT_TEAM = 7358RL8G34;
 				INFOPLIST_FILE = "cclub-Mpose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cclub.Milad.cclub-Mpose";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cclub-Mpos.Milad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,13 +643,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JK772YMH8E;
+				DEVELOPMENT_TEAM = 7358RL8G34;
 				INFOPLIST_FILE = "cclub-Mpose/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cclub.Milad.cclub-Mpose";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cclub-Mpos.Milad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
