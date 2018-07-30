@@ -26,8 +26,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ToastManager.shared.isTapToDismissEnabled = true
         ToastManager.shared.isQueueEnabled = true
         
-        
-        
         return true
     }
 

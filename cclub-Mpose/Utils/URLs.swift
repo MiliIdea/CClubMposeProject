@@ -40,4 +40,6 @@ public class URLs {
     
     static let getRejectPrice = server + "transactionMasterService/getRejectPayedValue"
     
+    
+    
 }

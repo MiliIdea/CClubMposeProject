@@ -289,7 +289,8 @@ class MainPageViewController: UIViewController ,UITableViewDelegate , UITableVie
             callEditUser()
         }else{
             //inja bayad reste sabte customer call she
-            callAddPerson()
+//            callAddPerson()
+            checkduplicate()
         }
         
     }
@@ -318,6 +319,29 @@ class MainPageViewController: UIViewController ,UITableViewDelegate , UITableVie
         }
     }
     
+    func checkduplicate(){
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .secondsSince1970
+        let l = App.showLoading(vc: self)
+        request(URLs.searchWithMobile, method: .post , parameters: SearchWithMobileRequestModel.init(mobileNumber: self.mobileNumberF.text!).getParams() , encoding: JSONEncoding.default).responseDecodableObject(decoder: decoder) { (response : DataResponse<ResponseModel<[SearchRes]>>) in
+            
+            let res = response.result.value
+            l.disView()
+            print(res?.done)
+            if(res != nil && (res?.done)!){
+                if((res?.result?.count)! > 0){
+                   self.view.makeToast("این کاربر موجود می باشد")
+                }else{
+                    self.callAddPerson()
+                }
+                
+            }else{
+                self.view.makeToast(res?.errorDesc)
+            }
+            
+        }
+    }
+    
     func callAddPerson(){
         
         let decoder = JSONDecoder()
@@ -327,6 +351,8 @@ class MainPageViewController: UIViewController ,UITableViewDelegate , UITableVie
         if(self.womanCheck.isSelected){
             sex = "1"
         }
+        
+        
         
         request(URLs.assignCcardWithPerson, method: .post , parameters: AssignCcardWithPersonRequestModel.init(ccardNumber: self.cardNumberF.text!, organizationId: (App.loginRes?.organizationId!.description)!, firstName: self.customerNameF.text!, lastName: self.customerfamilyNameF.text!, mobileNumber: self.mobileNumberF.text!, sex: sex, birthDate: self.birthdateButton.title(for: .normal) ?? "").getParams() , encoding: JSONEncoding.default).responseDecodableObject(decoder: decoder) { (response : DataResponse<ResponseModel<String>>) in
             let res = response.result.value
